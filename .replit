@@ -1,2 +1,2 @@
 language = "python3"
-run = 'export PIPENV_IGNORE_VIRTUALENVS=1 pip install pipenv; pipenv install;  pipenv run python -m pytest --disable-pytest-warnings -k "basket"'
+run = 'pip install pipenv; pipenv install; export PIPENV_IGNORE_VIRTUALENVS=1; pipenv run python -m pytest --disable-pytest-warnings -k "basket"'
